@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "techtest"
+name = "nexgenstack"
 version = "0.1.0"
 description = ""
 authors = []
