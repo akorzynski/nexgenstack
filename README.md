@@ -16,8 +16,8 @@ While the details of the Hyperstack/Infrahub architecture aren't public, the pla
 #####
 
 Note: diagram obtained from the OpenStack's documentation
-  
-![OpenStack Nova Architecture Diagram](https://github.com/user-attachments/assets/82e71c6c-8da5-4770-af13-5efc69be15be)
+
+![OpenStack Nova Architecture Diagram](https://github.com/user-attachments/assets/05f582f5-c299-47a1-b951-3937b9efa9dc)
 
 </details>
 
