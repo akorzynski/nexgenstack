@@ -17,7 +17,11 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path
+from svcs.views import VirtualMachineView
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path('v1/core/virtual-machines/', VirtualMachineView.as_view(), name='virtual_machine'),
+    path('v1/core/virtual-machines/<str:pk>/', VirtualMachineView.as_view(), name='virtual_machine_by_id'),
+    path('v1/internal/vm-state/<str:pk>/', VirtualMachineView.as_view(), name='virtual_machine_update_state'),
 ]
