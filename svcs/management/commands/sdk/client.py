@@ -3,8 +3,8 @@ import random
 
 from uuid import uuid4
 
-from sdk.exceptions import AuthenticationError, NoResourcesAvailableError
-from sdk.models import VirtualMachine
+from .exceptions import AuthenticationError, NoResourcesAvailableError
+from .models import VirtualMachine
 
 logger = logging.getLogger()
 
