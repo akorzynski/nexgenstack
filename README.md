@@ -121,7 +121,7 @@ The final API design is as follows:
 | Delete a VM  | DELETE | `/v1/core/virtual-machines/{id}`    |
 
 <details>
-<summary>Click here to reveal the payloads of the POST call above</summary>
+<summary>Click here to reveal the payload of the POST call above</summary>
 
 ##### Create a VM
 
